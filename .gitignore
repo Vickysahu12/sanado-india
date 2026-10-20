@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local design notes (impeccable)
+PRODUCT.md
+DESIGN.md
+.impeccable/
