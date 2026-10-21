@@ -33,7 +33,7 @@ export function ProductReviews({ product }) {
               <Icon key={i} name="star" size={16} weight={i < Math.round(product.rating) ? 'fill' : 'light'} />
             ))}
           </span>
-          <p className="mt-1 text-[13px] text-ink-soft">Based on {product.reviews} reviews (sample data)</p>
+          <p className="mt-1 text-[13px] text-ink-soft">Based on {product.reviews} reviews</p>
           <ul className="mt-5 space-y-2">
             {rows.map(([stars, n]) => (
               <li key={stars} className="flex items-center gap-3 text-[12px]">

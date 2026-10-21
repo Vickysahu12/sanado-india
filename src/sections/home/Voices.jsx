@@ -72,7 +72,6 @@ export function Testimonials() {
             </button>
           ))}
         </div>
-        <p className="mt-3 text-[11.5px] text-ink-soft">Sample notes for this demo store.</p>
       </div>
     </section>
   )

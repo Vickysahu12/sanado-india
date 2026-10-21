@@ -159,7 +159,7 @@ export function CheckoutPage() {
               </div>
 
               <h2 className="display mt-8 text-[30px] text-ink">Payment</h2>
-              <p className="mt-1 text-[13px] text-ink-soft">This is a demo store. No real payment is taken.</p>
+              <p className="mt-1 text-[13px] text-ink-soft">Secure checkout. Review your order before you place it.</p>
               <div className="mt-5">
                 <PaymentForm
                   method={method}

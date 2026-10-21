@@ -128,13 +128,6 @@ export const testimonials = [
   { name: 'Vikram R.', city: 'Delhi', rating: 4, productId: 'm08', text: 'The navy vest is invisible under my office shirts. Good fabric, holds its shape.' },
 ]
 
-export const instagram = {
-  handle: '@sanadoindia',
-  tag: '#InnerComfort',
-  href: 'https://instagram.com',
-  images: ['w01-1', 'm17-1', 'w26-1', 'm04-1', 'w07-2', 'm13-1'],
-}
-
 export const offers = [
   { title: '10% off your first order', code: 'COMFORT10' },
   { title: '₹150 off orders above ₹1,499', code: 'SANADO150' },

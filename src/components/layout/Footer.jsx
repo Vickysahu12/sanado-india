@@ -86,22 +86,6 @@ export function Footer() {
         <div className="shell grid gap-12 py-14 lg:grid-cols-[1.1fr_2fr_1.6fr] lg:gap-10 lg:py-16">
           <div>
             <p className="max-w-[32ch] text-[14.5px] leading-relaxed text-cream/80">{site.footer.blurb}</p>
-            <p className="caps mt-7 text-[10.5px] text-cream">Follow</p>
-            <ul className="mt-3 flex gap-2">
-              {site.footer.social.map((s) => (
-                <li key={s.label}>
-                  <a
-                    href={s.href}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={s.label}
-                    className="press grid size-10 place-items-center rounded-[6px] border border-cream/30 text-cream transition-[background-color,border-color,color,transform] duration-300 hover:-translate-y-0.5 hover:border-cream hover:bg-cream hover:text-ink"
-                  >
-                    <Icon name={s.icon} size={18} />
-                  </a>
-                </li>
-              ))}
-            </ul>
           </div>
 
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
@@ -139,7 +123,7 @@ export function Footer() {
 
         <div className="border-t border-cream/15">
           <p className="shell py-5 text-center text-[12.5px] text-cream/70">
-            © {YEAR} {site.name}. All rights reserved. Demo storefront: prices, reviews and orders are sample data.
+            © {YEAR} {site.name}. All rights reserved.
           </p>
         </div>
       </div>
